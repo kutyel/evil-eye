@@ -2,13 +2,19 @@
   "name": "evil-eye",
   "description": "Small evil eye to see the inner parts of js...",
   "homepage": "https://documentup.com/kutyel/evil-eye",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "author": {
     "email": "flavio.corparios@ext.soprasteria.com",
     "name": "Flavio Corpa",
     "url": "https://flaviocorpa.com"
   },
+  "contributors": [
+    {
+      "name": "kutyel",
+      "email": "flavio.corparios@ext.soprasteria.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kutyel/evil-eye.git"
@@ -41,6 +47,10 @@
   "engines": {
     "node": ">= 8"
   },
+  "files": [
+    "index.js",
+    "readme.md"
+  ],
   "scripts": {
     "clean": "rm -rf node_modules",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
